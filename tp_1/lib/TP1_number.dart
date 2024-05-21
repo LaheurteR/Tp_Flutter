@@ -8,7 +8,8 @@ void main()
   print (sum.toInt());
 
   const String str7 = "7";
-  //const int num7 = int.parse(str7);
+  final int num7 = int.parse(str7);
+  print(num7);
 
   print("hello world");
   String message = "Hello, World !";
